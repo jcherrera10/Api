@@ -38,6 +38,7 @@ namespace ApiTestProject
                      {
                          Debug.WriteLine("...Attempting to build Post/Patch request");
                          streamWriter.Write(payload);
+                        //
                      }
                  }
                 using (response = (HttpWebResponse)request.GetResponse())
